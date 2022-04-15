@@ -15,5 +15,7 @@ Various changes from version to version will be written below.
 
 ## Snapshot 220415.2
 > Now you can export the QR Code image by dragging it somewhere (for example in the tab bar or in your desktop).   
-> Now the QR Code image has a border-radius setted to 7px.
+> Now the QR Code image has a border-radius setted to 7px.    
 
+## Snapshot 220415.3
+> A visual bug affecting the mobile site has been fixed
