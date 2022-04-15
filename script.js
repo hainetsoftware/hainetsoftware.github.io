@@ -1,24 +1,5 @@
-const wrapper = document.querySelector(".wrapper"),
-qrInput = wrapper.querySelector(".form input"),
-generateBtn = wrapper.querySelector(".form button"),
-qrImg = wrapper.querySelector(".qr-code img");
-let preValue;
+let qr=document.getElementById('qr')
+qr.onclick=()=>{window.open("https://google.com", "_new")}
 
-generateBtn.addEventListener("click", () => {
-    let qrValue = qrInput.value.trim();
-    if(!qrValue || preValue === qrValue) return;
-    preValue = qrValue;
-    generateBtn.innerText = "Ci sto lavorando...";
-    qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=268x268&data=${qrValue}`;
-    qrImg.addEventListener("load", () => {
-        wrapper.classList.add("active");
-        generateBtn.innerText = "Go";
-    });
-});
-
-qrInput.addEventListener("keyup", () => {
-    if(!qrInput.value.trim()) {
-        wrapper.classList.remove("active");
-        preValue = "";
-    }
-});
+let qr2=document.getElementById('qr2')
+qr2.onclick=()=>{window.open("https://google.com", "_new")}

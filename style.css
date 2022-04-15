@@ -1,103 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  background-color: rgb(41, 38, 40);
 }
-body{
-  display: flex;
-  padding: 0 10px;
-  min-height: 100vh;
-  align-items: center;
-  background: #e79ae1;
-  justify-content: center;
-}
-.wrapper{
-  height: 265px;
-  max-width: 410px;
-  background: #fff;
-  border-radius: 7px;
-  padding: 20px 25px 0;
-  transition: height 0.2s ease;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-.wrapper.active{
-  height: 530px;
-}
-header h1{
-  font-size: 21px;
-  font-weight: 500;
-}
-header p{
-  margin-top: 5px;
-  color: #575757;
-  font-size: 16px;
-}
-.wrapper .form{
-  margin: 20px 0 25px;
-}
-.form :where(input, button){
+.cards-list {
+  z-index: 0;
   width: 100%;
-  height: 55px;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-  transition: 0.1s ease;
-}
-.form input{
-  font-size: 18px;
-  padding: 0 17px;
-  border: 1px solid #999;
-}
-.form input:focus{
-  box-shadow: 0 3px 6px rgba(0,0,0,0.13);
-}
-.form input::placeholder{
-  color: #999;
-}
-.form button{
-  color: #fff;
-  cursor: pointer;
-  margin-top: 20px;
-  font-size: 17px;
-  background: #e79ae1;
-}
-.qr-code{
-  opacity: 0;
   display: flex;
-  padding: 33px 0;
-  border-radius: 7px;
-  align-items: center;
-  pointer-events: none;
-  justify-content: center;
-  border: 2px solid #ccc;
-}
-.wrapper.active .qr-code{
-  opacity: 1;
-  pointer-events: auto;
-  transition: opacity 0.5s 0.05s ease;
-}
-.qr-code img{
-  width: 170px;
-  border-radius: 7px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-@media (max-width: 430px){
-  .wrapper{
-    height: 255px;
-    padding: 16px 20px;
-  }
-  .wrapper.active{
-    height: 520px;
-  }
-  header p{
-    color: #696969;
-  }
-  .form :where(input, button){
-    height: 52px;
-  }
-  .qr-code img{
-    width: 170px;
-  }  
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.4s;
 }
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    flex-direction: column;
+  }
+}
+
+
+/*
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
+}
+*/
