@@ -23,7 +23,7 @@ body{
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 .wrapper.active{
-  height: 530px;
+  height: 550px;
 }
 header h1{
   font-size: 21px;
@@ -99,5 +99,5 @@ header p{
   }
   .qr-code img{
     width: 170px;
-  }  
+  }
 }
