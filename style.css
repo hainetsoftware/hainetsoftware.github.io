@@ -67,11 +67,11 @@ header p{
   opacity: 0;
   display: flex;
   padding: 33px 0;
-  border-radius: 5px;
+  border-radius: 7px;
   align-items: center;
   pointer-events: none;
   justify-content: center;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
 }
 .wrapper.active .qr-code{
   opacity: 1;
@@ -98,6 +98,6 @@ header p{
     height: 52px;
   }
   .qr-code img{
-    width: 160px;
+    width: 170px;
   }  
 }
