@@ -80,6 +80,7 @@ header p{
 }
 .qr-code img{
   width: 170px;
+  border-radius: 7px;
 }
 
 @media (max-width: 430px){
