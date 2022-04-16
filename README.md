@@ -7,4 +7,4 @@ Non ho voglia di scrivere in inglese. Poi aggiorno.
      style="float: left; margin-right: 10px;" />  
      
  # FAQ
- Lorem Ipsum
+ No
