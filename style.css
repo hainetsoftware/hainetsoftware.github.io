@@ -61,6 +61,12 @@ body {
   }
 }
 
+#footer {
+    position: fixed;
+    bottom: 20;
+    z-index: 200;
+}
+
 
 
 
