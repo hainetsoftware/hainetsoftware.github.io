@@ -1,0 +1,54 @@
+<!-- SECURED BY hai.network YOUR DATA ARE SECURE. NO ONE ARE COLLECTED LOL -->
+
+<html lang="it" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>What Browser</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1040/1040243.png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="logos">
+        <img class="chrome" src="logos/chromium.png" alt="chrome" title="Chromium">
+        <img class="firefox" src="logos/firefox.png" alt="firefox" title="Mozilla Firefox">
+        <img class="edge" src="logos/edge.png" alt="edge" title="Microsoft Edge">
+        <img class="opera" src="logos/opera.png" alt="opera" title="Opera">
+        <img class="safari" src="logos/safari.png" alt="safari" title="Apple Safari">
+      </div>
+    </div>
+
+    <script>
+      let userAgent = navigator.userAgent;
+      let browser;
+      if(userAgent.match(/edg/i)){
+        browser = "edge";
+      }else if(userAgent.match(/firefox|fxios/i)){
+        browser = "firefox";
+      }else if(userAgent.match(/opr\//i)){
+        browser = "opera";
+      }else if(userAgent.match(/chrome|chromium|crios/i)){
+        browser = "chrome";
+      }else if(userAgent.match(/safari/i)){
+        browser = "safari";
+      }else{
+        alert("Other browser");
+      }
+      const logo = document.querySelector(`.logos .${browser}`);
+      if(logo){
+        logo.style.opacity = "1";
+      }
+    </script>
+
+<!-- Back button for native app - hai.network -->
+  <a href="../index.html">
+  <button class="button button">
+      <img src="../native-icon/back.png">
+  </button>
+
+  </body>
+</html>
+
+<!-- SOFTWARE GRATIS O MORTE -->

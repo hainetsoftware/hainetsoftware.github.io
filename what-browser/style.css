@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(87, 174, 222);
+}
+::selection{
+  color: #fff;
+  background: rgb(61, 57, 60, 0.25);
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  padding: 30px 40px;
+  align-items: center;
+  border-radius: 17px;
+  justify-content: center;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}
+.logos img{
+  opacity: 0.3;
+  margin: 0 7px;
+  transition: opacity 0.4s ease;
+}
+.logos img:last-child{
+  margin-right: 8px;
+}
+
+/* Back button for native app - hai.network */
+.button {
+  background-color: #FFF;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button {
+  position : absolute;
+  left : 2%;
+  top: 4%;
+  border-radius: 17px;
+}

@@ -196,3 +196,23 @@ header i{
 .humidity i{
   font-size: 37px;
 }
+
+/* Back button for native app - hai.network */
+.button {
+  background-color: #FFF;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button {
+  position : absolute;
+  left : 2%;
+  top: 4%;
+  border-radius: 17px;
+}
