@@ -1,10 +1,8 @@
 # Random Project
-Qua vengono gettati centinaia, se non migliaia di siti, creati in una manciata, di decine, di ore.
-Non ho voglia di scrivere in inglese. Poi aggiorno.      
-### morrolinux with no copyright (rare version!) 
-<img src="https://yt3.ggpht.com/ytc/AKedOLSd92q7f3SQtGScFPnF6eUajS5KFJSYdqexkbOK6Q=s900-c-k-c0x00ffffff-no-rj"
-     alt="morrolinux free nudes"
-     style="float: left; margin-right: 10px;" />  
-     
- # FAQ
- No
+Hundreds, if not thousands of sites are thrown here, created in a handful, tens, hours.
+Read below to understand what has happened to this hideous-site over time  .
+
+# Snapshot
+## Snapshot 220418.1 - Codename '[Stranger In The Night](https://www.youtube.com/watch?v=Fd_3EkGr0-4)'
+>A new site has been added that can recognize which web browser you are using.
+>Everything is ready for the native app (it will be a crap - settle for now, my little user -). The 'back' button has been added.
